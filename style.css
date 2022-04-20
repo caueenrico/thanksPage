@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.cabeça{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e3dcd2;
+    
+}
+p{
+    font-size: 20px;
+}
+li{
+    font-size: 20px;
+}
+
+body{
+    background: #e3dcd2;
+}
+
+header{
+    background: #100c0d;
+    height: 100px;
+
+}
+
+header ul{
+    gap: 2vh;
+    display: flex;
+    list-style-type: none;  
+}
+
+h2{
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+    font-size: 5vh;
+}
+
+a{
+    color: aliceblue;
+}
+
+.tanksm{
+    margin-top: 5vh; 
+    align-items: center;
+    text-align: center;
+   margin-top: 25vh;
+    
+}
+
+.tanksm img{
+    height: 220px ;
+    border-radius: 15px;
+    box-shadow:#100c0d  5px 5px 5px;
+
+}
+.bott{
+    text-align: center;
+}
+
+.sobreMim{
+    align-items: center;
+    margin-top: 20vh; 
+   
+}
+
+.sobreMim img{
+    height: 220px ;
+    border-radius: 15px;
+    box-shadow:#100c0d  5px 5px 5px;
+}
+
+.sobreMim .texto{
+    margin-left: 5vh;
+}
+
+.objetivo {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.formacoes{
+    margin-top: 5vh;
+}
+
+.formacoes ul{
+    text-align: center;
+}
+.formacoes h2{
+    text-align: center;
+}
+
+.habilidades{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.habilidades img{
+    height: 80px;
+}
+
+
+.carrosel{
+    margin-top: 5vh;
+}
+
+.carousel-item{
+    text-align: center;
+   
+}
+
+.carousel-control-next{
+    color: #100c0d;
+}
+
+.imgcarrosel{
+    width: 100vh;
+}
+
+
+.projetos{
+    align-items: center;
+    text-align: center;
+    margin-top: 5vh;
+
+}
+.projetos12{
+    align-items:flex-start;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-top: 1vh;
+    
+    
+}
+
+.projetos12 div{
+    margin-top: 3vh;
+}
+
+.projetos h2{
+    font-size: 6vh;
+}
+
+.btn{
+    background: #013328;
+    color: antiquewhite;
+}
+
+.card{
+    border-radius: 15px;
+    box-shadow:#100c0d  5px 5px 5px;
+    
+}
+
+input{
+    width: 100%;
+    padding: 8px 0px;
+    margin: 8px 0px;
+}
+
+input[type=text]{
+    height: 100px;
+}
+
+footer{
+    background: #100c0d;
+}
+
+footer div{
+    align-items: center;
+    justify-content: space-between;
+    
+    color: #e3dcd2;
+    margin-top: 20px;
+}
+
+footer ul{
+    gap: 1vh;
+}
+
+@media only screen and (min-width: 100px) and (max-width:1058px){
+
+    .sobreMim{
+        flex-direction: column;
+        
+    }
+
+    .sobreMim .texto{
+        margin-top: 5vh ;
+    }
+
+    .texto h2{
+        text-align: center;
+    }
+
+    .imgcarrosel{
+        width: 50vh;
+    }
+
+}
+
+
